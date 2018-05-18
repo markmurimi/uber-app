@@ -7,3 +7,6 @@ def welcome(request):
 
 def home(request):
     return render(request, 'home.html')
+
+def d_profile(request):
+    return render(request, 'driver-profile.html')
