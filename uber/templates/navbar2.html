@@ -1,0 +1,22 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<nav style="background-color: black;"class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{% url 'home'%}"></a>
+      <img src="https://www.knijff.com/markmatters/wp-content/uploads/2016/09/uber.png" style="width:90px;">
+    </div>
+    <a style="padding-top:35px;"class="navbar-brand" href="/">Escape</a>
+    <a style="padding-top:35px;"class="navbar-brand" href="{% url 'home2'%}">Home</a>
+    <a style="padding-top:35px;"class="navbar-brand" href="{% url 'p-profile'%}">Profile</a>
+  </div>
+</nav>
+</body>
+</html>

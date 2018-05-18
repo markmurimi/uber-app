@@ -10,3 +10,9 @@ def home(request):
 
 def d_profile(request):
     return render(request, 'driver-profile.html')
+
+def home2(request):
+    return render(request, 'home2.html')
+
+def p_profile(request):
+    return render(request, 'passenger-profile.html')
