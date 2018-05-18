@@ -1,13 +1,16 @@
+{% load bootstrap3 %}
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Maxify</title>
+        <title>Maxxify</title>
         {% block styles %}
             {% bootstrap_css %}
         {% endblock %}
     </head>
     <body>
+        {% include "navbar.html" %}
+
         {% block content %}
         {% endblock %}
 
