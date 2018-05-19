@@ -13,10 +13,10 @@
     <body>
         {% block content %}
         <h1>Welcome to my Uber App</h1>
-        <a href="{% url 'home'  %}">
+        <a href="/accounts/login">
             <button type="button" class="btn btn-primary" name="button">Driver</button>
         </a>
-        <a href="{% url 'home2'%}">
+        <a href="/accounts/login">
                 <button type="button" class="btn btn-primary" name="button">Passenger</button>
             </a>
         {% endblock %}
