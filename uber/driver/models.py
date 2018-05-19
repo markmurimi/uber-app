@@ -6,6 +6,7 @@ class Driver(models.Model):
     national_id = models.IntegerField(unique = True)
     driverLocation = models.ForeignKey('DriverLocation')
     car = models.ForeignKey('Car')
+    profile_pic = models.ImageField(upload_to='drivers/')
 
     def save_driver(self):
         '''Method to save a driver to the database.'''
