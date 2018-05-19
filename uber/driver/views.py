@@ -1,5 +1,6 @@
 from django.http  import HttpResponse
 from django.shortcuts import render
+from .models import Driver
 
 # Create your views here.
 def welcome(request):
@@ -16,3 +17,4 @@ def home2(request):
 
 def p_profile(request):
     return render(request, 'passenger-profile.html')
+
